@@ -26,11 +26,11 @@ public class itemAbilities implements Listener {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.CONDUIT_POWER, 5, 1, true));
             }
 
-            if (player.getInventory().getBoots().getType() == Material.LEATHER_CHESTPLATE && player.getInventory().getHelmet().getItemMeta().getDisplayName().equals("§aEmerald Boots")) {
+            if (player.getInventory().getBoots().getType() == Material.LEATHER_CHESTPLATE && player.getInventory().getBoots().getItemMeta().getDisplayName().equals("§aEmerald Boots")) {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.HERO_OF_THE_VILLAGE, 5, 2, true));
             }
 
-            if (player.getInventory().getLeggings().getType() == Material.NETHERITE_LEGGINGS && player.getInventory().getHelmet().getItemMeta().getDisplayName().equals("§8Shadow Assassin Leggings")) {
+            if (player.getInventory().getLeggings().getType() == Material.NETHERITE_LEGGINGS && player.getInventory().getLeggings().getItemMeta().getDisplayName().equals("§8Shadow Assassin Leggings")) {
                 player.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 5, 1, true));
             }
         }

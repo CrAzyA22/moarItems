@@ -11,6 +11,7 @@ public final class main extends JavaPlugin {
     public void onEnable() {
 
         itemListener.init();
+        new itemRecipes().registerRecipe();
 
         getCommand("getitem").setExecutor(new GiveCommand());
 
