@@ -1,0 +1,7 @@
+name: MoarItems
+version: '${project.version}'
+main: de.crazya22.moaritems.main
+api-version: 1.19
+description: This Plugin adds Moar Tools, Weapons and Armor
+commands:
+  getitem:
